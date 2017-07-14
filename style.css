@@ -25,11 +25,11 @@ nav img {
 
 .menu {
   list-style-type: none;
+  text-align: center;
+  width: 100%;
   margin: 0;
   padding: 0;
   overflow: hidden;
-  width: 100%;
-  /* padding-left: 26%; CENTRALIZAR NAVBAR ITEMS */
 }
 
 .menu h1 {
@@ -40,7 +40,8 @@ nav img {
 }
 
 .menu li {
-  float: left;
+  display: inline-block;
+  vertical-align: middle;
   padding: 3px;
 }
 
@@ -59,25 +60,34 @@ nav img {
 }
 
 .header {
-  padding-top: 81px;
-  background-image: url("images/burgerbackground.jpeg");
+  color: #ffffff;
+  text-align: center;
+  display: flex;
+  align-items: center;
+
+  /* Parallax */
   height: 100%;
+  background-image: url("images/burgerbackground.jpeg");
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  text-align: center;
-  color: #ffffff;
 }
 
 .header h1 {
   font-size: 100px;
   font-weight: bold;
   margin-bottom: 0px;
+  margin-top: 0px;
+
 }
 
 .header h4 {
   margin-top: 0px;
+}
+
+.header div {
+  width: 100%;
 }
 
 .titulocontainer {
