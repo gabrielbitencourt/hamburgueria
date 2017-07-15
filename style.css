@@ -3,6 +3,7 @@ html, body, h1, h2, h3, h4, h5, h6, p {
 }
 
 body {
+  position: relative;
   margin: 0;
   padding: 0;
 }
@@ -30,6 +31,7 @@ nav img {
   margin: 0;
   padding: 0;
   overflow: hidden;
+  z-index: 99999;
 }
 
 .menu h1 {
@@ -126,5 +128,9 @@ nav img {
 }
 
 footer {
+  text-align: center;
+}
+
+.thumbnail {
   text-align: center;
 }
