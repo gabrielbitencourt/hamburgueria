@@ -31,7 +31,6 @@ nav img {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  z-index: 99999;
 }
 
 .menu h1 {
@@ -95,7 +94,7 @@ nav img {
 .titulocontainer {
   margin: 60px;
   margin-top: 0px;
-  padding-top: 40px; /* QUANDO A SECTION ESTA NO TOPO FICA CORTADO */
+  padding-top: 83px;
 }
 
 .subtitulo {
@@ -133,4 +132,25 @@ footer {
 
 .thumbnail {
   text-align: center;
+}
+
+.table {
+  list-style-type: none;
+  text-align: center;
+
+}
+
+.table li {
+  width: 30%;
+  text-align: center;
+  display: inline-block;
+  vertical-align: middle;
+  border-radius: 10%;
+
+  background-color: #ffffff;
+  color: #000000;
+}
+
+.table li img {
+  padding-top: 20px;
 }
