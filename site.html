@@ -28,39 +28,49 @@
 
   <body data-spy="scroll" data-target="#scrollspy">
 
-    <nav>
+    <nav class="navbar navbar-inverse navbar-fixed-top">
 
-      <div class="container">
+      <div class="container-fluid">
 
-        <div class="row">
-
-          <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-
-            <ul class="menu">
-
-              <li> <a href="#"> Home </a> </li>
-              <li> <a href="#cardapio"> Cardápio </a> </li>
-              <li> <img src="images/hamburger.svg" alt="Hamburgueria Logo" width="50"> </li>
-              <li> <a href="#lojas"> Nossas Lojas </a> </li>
-              <li> <a href="#contato"> Contato </a> </li>
-
-            </ul>
-
-          </div>
-
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#"> Bitburger </a>
         </div>
 
-      </div>
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+
+          <ul class="nav navbar-nav">
+
+            <li> <a href="#"> Home </a> </li>
+            <li> <a href="#cardapio"> Cardápio </a> </li>
+            <li> <a href="#lojas"> Nossas Lojas </a> </li>
+            <li> <a href="#contato"> Contato </a> </li>
+
+          </ul>
+
+        </div><!-- /.navbar-collapse -->
+
+      </div><!-- /.container-fluid -->
 
     </nav>
 
-
     <header class="header">
 
-      <div>
+      <div class="container-fluid">
 
-        <h1> BITBURGER™</h1>
-        <h4> "A melhor hamburgueria do Rio de Janeiro!" - Minha mãe</h4>
+        <div>
+
+          <h1> BITBURGER™</h1>
+          <h4> "A melhor hamburgueria do Rio de Janeiro!" - Minha mãe</h4>
+
+        </div>
 
       </div>
 
@@ -68,54 +78,121 @@
 
     <section class="cardapio" id="cardapio">
 
-      <div class="titulocontainer">
+      <div class="container-fluid">
 
-        <h1 class="subtitulo"> Cardápio </h1>
-        <h4 class="legenda"> Coma com moderação, se você conseguir </h4>
+        <div class="row">
+
+          <div class="titulocontainer">
+
+            <h1 class="subtitulo"> Cardápio </h1>
+            <h4 class="legenda"> Coma com moderação, se você conseguir </h4>
+
+          </div>
+
+        </div>
+
+        <!--
+        <ul class="table">
+
+          <li>
+
+            <img src="images/burger.jpg" alt="" width="80%">
+            <div>
+
+              <h4> Hamburger 010110 </h4>
+              <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+
+            </div>
+
+          </li>
+
+          <li>
+
+            <img src="images/burger.jpg" alt="" width="80%">
+            <div>
+
+              <h4> Hamburger 011001 </h4>
+              <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+
+            </div>
+
+          </li>
+
+          <li>
+
+            <img src="images/burger.jpg" alt="" width="80%">
+            <div>
+
+              <h4> Hamburger 001011 </h4>
+              <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+
+            </div>
+
+          </li>
+
+
+
+        </ul>
+        -->
+
+        <div class="row">
+
+          <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+
+            <div class="thumbnail">
+
+              <img src="images/burger.jpg" alt="Burger">
+              <div class="caption">
+
+                <h3> Hamburger 010110 </h3>
+                <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+
+              </div>
+
+            </div>
+
+          </div>
+
+          <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+
+            <div class="thumbnail">
+
+              <img src="images/burger.jpg" alt="Burger">
+              <div class="caption">
+
+                <h3> Hamburger 010110 </h3>
+                <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+
+              </div>
+
+            </div>
+
+          </div>
+
+          <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+
+            <div class="thumbnail">
+
+              <img src="images/burger.jpg" alt="Burger">
+              <div class="caption">
+
+                <h3> Hamburger 010110 </h3>
+                <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+
+              </div>
+
+            </div>
+
+          </div>
+
+
+          </div>
+
+        </div>
 
       </div>
 
-      <ul class="table">
 
-        <li>
-
-          <img src="images/burger.jpg" alt="" width="80%">
-          <div>
-
-            <h4> Hamburger 010110 </h4>
-            <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
-
-          </div>
-
-        </li>
-
-        <li>
-
-          <img src="images/burger.jpg" alt="" width="80%">
-          <div>
-
-            <h4> Hamburger 011001 </h4>
-            <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
-
-          </div>
-
-        </li>
-
-        <li>
-
-          <img src="images/burger.jpg" alt="" width="80%">
-          <div>
-
-            <h4> Hamburger 001011 </h4>
-            <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
-
-          </div>
-
-        </li>
-
-
-
-      </ul>
 
 
     </section>
@@ -129,47 +206,59 @@
 
       </div>
 
-      <ul class="table">
+      <div class="row">
 
-        <li>
+        <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
 
-          <img src="images/store.jpg" alt="" width="80%">
-          <div>
+          <div class="thumbnail">
 
-            <h4> Bitburger Laranjeiras </h4>
-            <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+            <img src="images/store.jpg" alt="Burger">
+            <div class="caption">
 
-          </div>
+              <h3> Bitburger Laranjeiras </h3>
+              <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
 
-        </li>
-
-        <li>
-
-          <img src="images/store.jpg" alt="" width="80%">
-          <div>
-
-            <h4> Bitburger Centro </h4>
-            <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+            </div>
 
           </div>
 
-        </li>
+        </div>
 
-        <li>
+        <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
 
-          <img src="images/store.jpg" alt="" width="80%">
-          <div>
+          <div class="thumbnail">
 
-            <h4> Bitburger Fundão </h4>
-            <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+            <img src="images/store.jpg" alt="Burger">
+            <div class="caption">
+
+              <h3> Bitburger Centro </h3>
+              <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+
+            </div>
 
           </div>
 
-        </li>
+        </div>
 
+        <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
 
+          <div class="thumbnail">
 
-      </ul>
+            <img src="images/store.jpg" alt="Burger">
+            <div class="caption">
+
+              <h3> Bitburger Fundão </h3>
+              <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+
+            </div>
+
+          </div>
+
+        </div>
+
+        </div>
+
+      </div>
 
     </section>
 
